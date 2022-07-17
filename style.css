@@ -1,0 +1,965 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+body {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: block;
+}
+
+
+.first {
+    background-color: white;
+    padding-left: 12px;
+    padding-top: 0;
+    padding-right: 16px;
+    padding-bottom: 0;
+    margin: 0;
+    border: 0;
+    position: 0;
+    display: flex;
+    box-sizing: inherit;
+    height: 75px;
+
+}
+
+.border{
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.image {
+    position: relative;
+    width: 45px;
+    height: 42.4px;
+    cursor: pointer;
+}
+
+.image:hover {
+    opacity: 0.9;
+    background-color: #04aa6d;
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 {
+    padding: 24px 16px;
+    width: 116px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 0ch;
+}
+
+.btn1:hover {
+    opacity: 0.9;
+    background-color: #04aa6d;
+    color: white;
+}
+
+.btn2 {
+    padding: 24px 16px;
+    width: 132px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 0ch;
+}
+
+.btn2:hover {
+    opacity: 0.9;
+    background-color: #04aa6d;
+    color: white;
+}
+
+.btn3 {
+    padding: 24px 16px;
+    width: 118px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 0ch;
+}
+
+.btn3:hover {
+    opacity: 0.9;
+    background-color: #04aa6d;
+    color: white;
+}
+
+.btn4 {
+    padding: 24px 16px;
+    width: 83.21px;
+    height: 75px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    border: 0ch;
+}
+
+.btn4:hover {
+    opacity: 0.9;
+    background-color: #04aa6d;
+    color: white;
+    
+}
+
+
+.icons {
+    display: flex;
+    width: 132.863px;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: white;
+    color: black;
+}
+
+.icon1 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#icon1{
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+#icon1:hover {
+    opacity: 0.9;
+    color: #04aa6d;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon2 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#icon2{
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+#icon2:hover {
+    opacity: 0.9;
+    color: #04aa6d;
+    background-color: white;
+    cursor: pointer;
+}
+
+.icon3 {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 8px;
+}
+
+#icon3{
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+#icon3:hover {
+    opacity: 0.9;
+    color: #04aa6d;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.container4 {
+    display: flex;
+    width: 357.236px;
+    height: 43px;
+    padding: 16px 0;
+}
+
+.btn5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 77.787px;
+    height: 27px;
+    text-align: center;
+    cursor: pointer;
+    padding: 8px 16px;
+    display: flex;
+    border: none;
+    outline: 0;
+    border-radius: 25px;
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    justify-content: center;
+    white-space: normal;
+    line-height: 1.5;
+}
+
+.btn5:hover {
+    opacity: 0.9;
+    background-color: #04aa6d;
+}
+
+.new {
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 10px;
+    margin-left: 3px;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    border: 1px solid black;
+    position: relative;
+    top: -2px;
+    background-color: white;
+    line-height: 1.5;
+}
+
+
+
+.btn6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 25px;
+    margin-right: 8px;
+    white-space: normal;
+    padding: 8px 16px;
+    width: 97.475px;
+    border: none;
+    outline: 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #FFC0C7;
+    color: black;
+    vertical-align: middle;
+    line-height: 1.5;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn6:hover {
+    opacity: 0.9;
+    background-color: #04aa6d;
+}
+
+
+
+.btn7 {
+    width: 94px;
+    border-radius: 25px;
+    margin-right: 8px;
+    white-space: normal;
+    padding: 8px 16px;
+    width: auto;
+    border: none;
+    outline: 0;
+    line-height: 1.5;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn7:hover {
+    opacity: 0.9;
+    background-color: #04aa6d;
+    color: white;
+    
+}
+
+.container5 {
+    height: 43px;
+    padding: 16px 0;
+}
+
+
+.btn8 {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 98px;
+    background-color: #04aa6d;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 8px 16px;
+    border: none;
+    outline: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn8:hover {
+    opacity: 0.9;
+    background-color: #059862;
+    color: white; 
+}
+
+
+
+.search {
+    padding: 90px 0;
+    height: 306px;
+    background-color: #282a35;
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+
+.search1 {
+    margin: 0 59.600px;
+    padding: 0 90px;
+    height: 294px;
+}
+
+
+
+h1 {
+    text-align: center;
+    margin: 2px 0 -20px 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+    color: #FFC0C7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.from {
+    margin: auto;
+    width: 500px;
+    height: 47.5px;
+    display: flex;
+}
+#name {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-radius: 25px;
+    width: 80%;
+    padding-left: 25px;
+    background: white;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+    border-right: 1px solid #04AA6D;
+    outline: 0;
+}
+
+
+#search-button {
+    border-radius: 25px;
+    width: 20%;
+    padding: 10px;
+    background: #04AA6D;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-left: none;
+    cursor: pointer;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#search-button:hover {
+    opacity: 0.9;
+    background-color: #04AA6D;
+}
+
+
+h3 {
+    margin: 30px 0 10px 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h3 a {
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+   
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: 0.9;
+    color: #04AA6D;
+}
+
+
+
+.html {
+    margin-top: -10px;
+    padding: 32px 0;
+    background-color: #d9eee1;
+    height: 534px;
+}
+
+.html-container {
+    margin: 0 59.6px 0 59.6px;
+    display: flex;
+    align-items: center;
+}
+
+.html2 {
+    width: 615.99px;
+    padding: 42px 42px;
+}
+
+.h1-html {
+    margin: -18px 0 -20px 0;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.h2-html {
+    margin: 22.8px 0 22.8px 0;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.html-btn1 {
+    padding: 8px 16px;
+    margin: 0 208px;
+    height: 43px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.html-btn1:hover {
+    opacity: 0.9;
+}
+
+
+.html-btn2 {
+    padding: 8px 16px;
+    margin: 0 208px;
+    height: 43px;
+    background-color: #FFF4A3;
+    color: black;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.html-btn2:hover {
+    opacity: 0.9;
+}
+    
+
+.html-btn3 {
+    padding: 8px 16px;
+    margin: 0 208px;
+    height: 43px;
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.html-btn3:hover {
+    opacity: 0.9;
+}
+    
+
+.html-btn4 {
+    padding: 8px 16px;
+    margin: 0 208px;
+    height: 43px;
+    line-height: 1.5;
+    background-color: #FFC0C7;
+    color: black;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.html-btn4:hover {
+    opacity: 0.9;
+}
+
+
+.html3 {
+    padding: 42px;
+    width: 615.99px;
+}
+
+.html-box {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-color: #E7E9EB;
+    color: #000;
+    padding: 16px;
+    height: 421px;
+}
+
+.html-box h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+}
+
+.html-example {
+    height: 284px;
+    border-left: 4px solid #04AA6D;
+    margin: 16px 0 16px 0;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    height: 300px;
+}
+
+.button-html3 {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 200px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-html3:hover {
+    opacity: 0.9;
+}
+
+
+
+
+.css {
+    margin-top: -10px;
+    padding: 32px 0;
+    background-color: #FFF4A3;
+    height: 534px;
+}
+
+.css-container {
+    margin: 0 59.6px 0 59.6px;
+    display: flex;
+    align-items: center;
+}
+
+.css2 {
+    width: 615.99px;
+    padding: 42px 42px;
+}
+
+.h1-css {
+    margin: -18px 0 -20px 0;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.h2-css {
+    margin: 22.8px 0 22.8px 0;
+    font-size: 19px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.css-btn1 {
+    padding: 8px 16px;
+    margin: 0 208px;
+    height: 43px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.css-btn1:hover {
+    opacity: 0.9;
+}
+
+.css-btn2 {
+    padding: 8px 16px;
+    margin: 0 208px;
+    height: 43px;
+    background-color: #282A35;
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.css-btn2:hover {
+    opacity: 0.9;
+}
+    
+
+.css-btn3 {
+    padding: 8px 16px;
+    margin: 0 208px;
+    height: 43px;
+    line-height: 1.5;
+    background-color: #FFC0C7;
+    color: black;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.css-btn3:hover {
+    opacity: 0.9;
+}
+
+
+.css3 {
+    padding: 42px;
+    width: 615.99px;
+}
+
+.css-box {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-color: #E7E9EB;
+    color: #000;
+    padding: 16px;
+    height: 407px;
+}
+
+.css-box h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+}
+
+.css-example {
+    height: 284px;
+    border-left: 4px solid #04AA6D;
+    margin: 16px 0 16px 0;
+    font-size: 15px;
+    background-color: #fff;
+    color: #000;
+    padding: 8px 12px;
+    height: 270px;
+}
+
+.button-css3 {
+    background-color: #04AA6D;
+    color: white;
+    height: 43px;
+    border-radius: 25px;
+    font-size: 18px;
+    width: 200px;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-css3:hover {
+    opacity: 0.9;
+}
+
+
+
+
+.last {
+    background-color: #282a35;
+    color: white;
+    padding: 32px 16px;
+}
+
+.footer1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.footer-btn {
+    padding: 32px 16px;
+    width: 100%;
+    display: flex; 
+}
+
+.footer-btn1 {
+    padding: 8px 16px;
+    margin-top: -9px;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-btn1:hover {
+    opacity: 0.9;
+}
+
+.footer-btn2 {
+    padding: 8px 16px;
+    margin-top: -9px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-btn2:hover {
+    opacity: 0.9;
+}
+
+.footer-btn3 {
+    padding: 8px 16px;
+    margin-top: -9px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-btn3:hover {
+    opacity: 0.9;
+}
+
+.footer-btn4 {
+    padding: 8px 16px;
+    margin-top: -9px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-btn4:hover {
+    opacity: 0.9;
+}
+
+.footer-btn5 {
+    padding: 8px 16px;
+    margin-top: -9px;
+    margin-left: 12px;
+    border-radius: 5px;
+    border: none;
+    vertical-align: middle;
+    color: black;
+    background-color: white;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-btn5:hover {
+    opacity: 0.9;
+}
+
+.footer-link {
+   width: 160px;
+   height: 23px;
+   padding: 32px 16px;
+}
+
+a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    text-align: end;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: right;
+    padding: 0px 16px;
+}
+
+.contact-icon1 {
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 17px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+
+.contact-icon1:hover {
+    opacity: 0.9;
+    background-color: white;
+    color: black;
+}
+
+
+.footer-text {
+    margin: 18px 0;
+    padding: 0 20px;
+}
+
+.footer-text {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-text p a {
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-text p a:hover {
+    color: #04AA6D;
+}
+
+.last-btn {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.last-btn i {
+    font-size: 30px;
+    cursor: pointer;
+    width: 36;
+    height: 36px;
+}
+
+.last-btn i:hover {
+    opacity: 0.9;
+    color: #d9eee1;
+    
+}
